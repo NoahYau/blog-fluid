@@ -109,3 +109,7 @@ deploy:
   branch: main
   ignore_hidden: false
 
+netlify_cms:
+  backend:
+    name: git-gateway
+    branch: master
